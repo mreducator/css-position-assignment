@@ -1,0 +1,63 @@
+:root {
+    --background-color-card1:pink;
+    --background-color-card2:rgb(14, 171, 42);
+    --background-color-card3:rgb(231, 190, 10);
+    
+}
+
+body{
+    padding: 0;
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#card1{
+    height: 290px;
+    width: 170px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    font-size: larger;
+    font-weight: 600;
+    background-color: var(--background-color-card1);
+     position: relative;
+     left: -370px;
+    
+}
+#card2{
+    height: 290px;
+    width: 170px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    font-size: larger;
+    font-weight: 600;
+    background-color: var(--background-color-card2);
+    position: absolute;
+    top: 230px;
+    left: 340px;
+    
+}
+#card3{
+    height: 290px;
+    width: 170px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    font-size: larger;
+    font-weight: 600;
+    background-color: var(--background-color-card3);
+    position: absolute;
+    top: 280px;
+    left: 380px;
+}
+#card1:hover{
+    z-index: 1;
+}
+#card2:hover{
+    z-index: 1;
+}
+

@@ -1,0 +1,57 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+#modals{
+     height: 65vh;
+     width: 50vw;
+     display: flex;
+     flex-direction: column;
+     justify-content: space-evenly;
+     background-color: rgb(223, 210, 210);
+     border: 2px solid  rgb(223, 210, 210);
+     border-radius: 5px;
+     position: absolute;
+     top: -10px;
+     left: 400px;
+
+}
+h3{
+    text-align: center;
+    border-bottom: 2px solid black;
+    height: 80px;
+}
+#name{
+    border-bottom: 2px solid black;
+    height: 30px;
+}
+#form{
+    display: flex;
+    justify-content: space-between;
+}
+#mail{
+    border-bottom: 2px solid black;
+    width: 48%;
+    height: 50px;
+}
+#contact{
+    
+        border-bottom: 2px solid black;
+        width: 50%;
+        height: 50px;
+    
+}
+#msg{
+    border-bottom: 2px solid black;
+    height: 120px;
+}
+button{
+    width: 30%;
+    height: 40px;
+    background-color: blue;
+    color: white;
+    border-radius: 5px;
+    margin-top: 20px;
+    margin-left: 5px;
+}

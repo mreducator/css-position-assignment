@@ -1,0 +1,47 @@
+:root {
+    --background-color-button1:pink;
+    --background-color-button2:black;
+    --text-color-button2:white;
+    
+    
+    
+   
+}
+
+body{
+    padding: 0;
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+#btn1{
+    height: 70px;
+    width: 170px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: larger;
+    font-weight: 600;
+    background-color: var(--background-color-button1);
+}
+#btn2{
+    height: 50px;
+    width: 120px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: larger;
+    font-weight: 600;
+    background-color: var(--background-color-button2);
+    color: var(--text-color-button2);
+    position: relative;
+    bottom: 140px;
+    left: 100px;
+    
+}
